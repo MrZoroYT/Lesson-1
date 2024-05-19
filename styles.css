@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    padding: 50px; /* Increased padding */
+}
+
+.section {
+    flex-grow: 1;
+}
+
+#left, #right {
+    background-color: black;
+    flex-basis: 40%; /* Decreased width of left and right sections */
+}
+
+#middle {
+    text-align: center;
+    padding: 50px;
+    background-color: #242424;
+    border-radius: 20px; /* Added border-radius to create rounded corners */
+    flex-grow: 3; /* Set the width of the middle section */
+}
+
+img {
+    width: 150px; /* Decreased size of the image */
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 20px; /* Decreased font size */
+    margin-bottom: 10px; /* Increased margin bottom */
+    color: rgb(255, 255, 255); /* Text color changed to grey */
+}
+
+h5 {
+    font-size: 13px; /* Decreased font size */
+    margin-bottom: 20px; /* Increased margin bottom */
+    color: rgb(178, 243, 27); /* Text color changed to grey */
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 100px; /* Decreased padding */
+    margin: 0 10px;
+    background-color: #2e2e2e;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #cd2222;
+}
+h6{color: #bababa;}
